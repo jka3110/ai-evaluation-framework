@@ -1,5 +1,8 @@
 import streamlit as st
 
+st.text("App is loading...")  # Add this line to verify rendering
+st.set_page_config(page_title="AI Evaluation Framework", layout="centered")
+
 st.set_page_config(page_title="AI Evaluation Framework", layout="centered")
 
 if "step" not in st.session_state:
